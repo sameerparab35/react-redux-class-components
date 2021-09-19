@@ -5,6 +5,7 @@ import { Provider } from 'react-redux';
 import store from './redux/store';
 import IceCreamContainer from './components/IceCreamContainer';
 import NewCakeContainer from './components/NewCakeContainer';
+import ItemContainer from './components/ItemContainer';
 
 function App() {
   return (
@@ -28,6 +29,11 @@ function App() {
         <hr />
         <h2>New Cake Container with Payload</h2>
         <NewCakeContainer></NewCakeContainer>
+
+        <hr />
+        <h2>Pass props from parent to child</h2>
+        <ItemContainer cake></ItemContainer>
+        <ItemContainer></ItemContainer>
 
 
       </div>
