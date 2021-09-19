@@ -4,6 +4,7 @@ import HooksCakeContainer from './components/HooksCakeContainer';
 import { Provider } from 'react-redux';
 import store from './redux/store';
 import IceCreamContainer from './components/IceCreamContainer';
+import NewCakeContainer from './components/NewCakeContainer';
 
 function App() {
   return (
@@ -23,6 +24,10 @@ function App() {
         <hr />
         <h2> Demo- React Redux -  IceCream with Hooks</h2>
         <IceCreamContainer></IceCreamContainer>
+
+        <hr />
+        <h2>New Cake Container with Payload</h2>
+        <NewCakeContainer></NewCakeContainer>
 
 
       </div>
